@@ -3,13 +3,6 @@
 This project demonstrates enhanced white-box testing strategies for RESTful APIs, integrating dynamic testing (using `unittest` + `hypothesis`) and **search-based test case generation** via **genetic algorithms** (`pygad`).
 
 ---
-
-## 🗂 Project Structure
-
-Enhanced-WhiteBox-Testing/ │ ├── api/ │ └── sample-api/ │ └── src/ │ └── app.py # Flask API source │ ├── genetic_testing/ │ └── genetic_test_gen.py # Genetic algorithm-based test case generator │ ├── test-suite/ │ └── test_cases/ │ ├── test_api.py # Dynamic tests using unittest + hypothesis │ └── test_genetic.py # Validation for genetic algorithm logic │ ├── coverage_reports/ │ └── coverage.json # Coverage output (generated) │ ├── htmlcov/ # Coverage HTML report (auto-generated) │ ├── setup.ps1 # PowerShell script to automate testing + reporting (Windows) ├── Makefile # (Optional) Makefile for UNIX-based automation └── README.md # You're here!
-
----
-
 ## 🚀 Quick Start
 
 ### 1. 📦 Install Dependencies
