@@ -1,4 +1,4 @@
-# 🔍 Enhanced White-Box Testing for RESTful APIs using Search-Based Methods
+#  Enhanced White-Box Testing for RESTful APIs using Search-Based Methods
 
 This project demonstrates enhanced white-box testing strategies for RESTful APIs, integrating dynamic testing (using `unittest` + `hypothesis`) and **search-based test case generation** via **genetic algorithms** (`pygad`).
 
