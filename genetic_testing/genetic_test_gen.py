@@ -5,6 +5,7 @@ import logging
 # Configure logging
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
+
 API_URL = "http://localhost:5000/users"
 
 def generate_test_case(solution):
