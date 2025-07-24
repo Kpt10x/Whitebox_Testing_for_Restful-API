@@ -5,6 +5,7 @@ import os
 # Add root to PYTHONPATH
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 
+
 from genetic_testing.genetic_test_gen import generate_test_case, fitness_function
 
 class TestGeneticAlgorithm(unittest.TestCase):
